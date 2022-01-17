@@ -9,9 +9,6 @@
             "email": "mrvns@live.com"
         }
     ],
-    "require": {
-        "toiladev/squirrel": "^1.0"
-    },
     "autoload": {
         "psr-4": {
             "Squirrel\\Page\\": "src/"
