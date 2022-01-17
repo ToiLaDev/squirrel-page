@@ -1,0 +1,27 @@
+{
+    "name": "toiladev/squirrel-page",
+    "description": "Moduler for Squirrel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr. VnS",
+            "email": "mrvns@live.com"
+        }
+    ],
+    "require": {
+        "toiladev/squirrel": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Squirrel\\Page\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Squirrel\\Page\\ServiceProvider"
+            ]
+        }
+    }
+}
