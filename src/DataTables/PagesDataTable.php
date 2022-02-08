@@ -19,7 +19,6 @@ class PagesDataTable extends BaseDataTable
 
     protected $columns = [
         'id' => [
-            'data' => '_id',
             'title' => 'ID',
             'raw' => [
                 'type' => 'id'
@@ -32,9 +31,7 @@ class PagesDataTable extends BaseDataTable
         'action' => [
             'raw' => [
                 'type' => 'acast'
-            ],
-            'width' => 80,
-            'addClass' => 'text-center'
+            ]
         ]
     ];
 
